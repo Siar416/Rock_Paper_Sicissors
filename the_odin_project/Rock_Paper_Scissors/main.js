@@ -22,12 +22,11 @@
     } else { return 'You lose!';
     }
 }*/
-
+//fksahjdifohjsadkjfhsdkljfhksjdhfssdfdsfsdfsdfsdfsdf
 // score keeping
 let playerScore = 0;
 let computerScore = 0;
 let draws = 0;
-
 
 // computer choice
 function computerPlay() {
