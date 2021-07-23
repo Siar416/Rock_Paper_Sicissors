@@ -1,42 +1,36 @@
-// computer to pick random; rock, paper, scissors
-/*function iFcomputerPlay() {
-    random = Math.floor(Math.random()*3);
-    if (random === 0) {
-        return 'rock';
-    } else if (random === 1) {
-        return 'paper';
-    } else {
-        return 'scissors';
-    }
-} */
-
-/*function playRound(playerSelection, computerSelection) {
-    if (playerSelection === 'rock' && computerSelection === 'scissors') {
-        return 'You win!';
-    } else if (playerSelection === 'paper' && computerSelection === 'rock') {
-        return 'You win!';
-    } else if (playerSelection === 'scissors' && computerSelection === 'paper') {
-        return 'You win!';
-    } else if (playerSelection === computerSelection) {
-        return 'Tie';
-    } else { return 'You lose!';
-    }
-}*/
-
-// score keeping
-let playerScore = 0;
-let computerScore = 0;
-let draws = 0;
-
-/*// computer choice
+// this is for computer to play at random
 function computerPlay() {
     let array = ['rock', 'paper', 'scissors'];
     random = Math.floor(Math.random()*3)
     return array[random];
 }
 
-// plays one round of RPS
+
+// this plays one round of RPS
 function playRound(playerSelection, computerSelection) {
+    if (yourWins.textContent < 5 && computerWins.textContent < 5) {
+
+
+
+
+
+
+
+
+
+
+
+        
+    }
+
+
+
+
+
+
+
+
+
     if (playerSelection === 'rock' && computerSelection === 'paper') {
         return computerWinRound;
     } else if (playerSelection === 'rock' && computerSelection === 'scissors') {
@@ -57,6 +51,29 @@ function playRound(playerSelection, computerSelection) {
         return draw;
     } else { return badSelection }
 }
+
+// event listener for buttons
+    const playButtons = document.querySelectorAll('.button');
+
+    playButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            computerPlay();
+            playRound(computerSelection);
+        })
+    });
+
+
+
+
+
+// score keeping
+let playerScore = 0;
+let computerScore = 0;
+let draws = 0;
+
+
+
+
 
 // specify rounds won with message
 let playerWinRound = 'Player has won this round';
@@ -98,4 +115,6 @@ if (computerScore > 4) {
     return;
 }
 }
+
+
 
