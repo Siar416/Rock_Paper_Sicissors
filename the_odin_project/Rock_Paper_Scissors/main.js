@@ -22,13 +22,13 @@
     } else { return 'You lose!';
     }
 }*/
-//fksahjdifohjsadkjfhsdkljfhksjdhfssdfdsfsdfsdfsdfsdf
+
 // score keeping
 let playerScore = 0;
 let computerScore = 0;
 let draws = 0;
 
-// computer choice
+/*// computer choice
 function computerPlay() {
     let array = ['rock', 'paper', 'scissors'];
     random = Math.floor(Math.random()*3)
