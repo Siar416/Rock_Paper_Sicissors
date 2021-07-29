@@ -1,0 +1,72 @@
+ 
+body {
+    margin: auto;
+    width: 50%;
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:80vh;
+}
+
+.mainDiv {
+    margin: auto;
+    width: 100%;
+    border: solid;
+    padding: 20px;
+
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+#buttonDiv {
+    text-align: center;
+}
+
+.playButton {
+    margin: 0 50px;
+    padding: 10px;
+    background: #3D94F6;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.playButton:hover {
+    background: #1E62D0;
+    text-decoration: none;
+}
+
+.yourWin {
+    text-align: center;
+    margin: 20px;
+}
+
+.yourWin p {
+    color: green;
+}
+
+.computerWin {
+    text-align: center;
+    margin: 20px;
+}
+
+.computerWin p {
+    color: red;
+}
+
+#results {
+    text-align: center;
+}
+
+#resetButton {
+    position: relative;
+    width: 100px;
+    margin: 0 45%;
+}
+
+#gameResult {
+    text-align: center;
+}
