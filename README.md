@@ -1,1 +1,1 @@
-# Rock_Paper_Sicissors
+# Rock_Paper_Sicissors & Calculator Project
